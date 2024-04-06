@@ -3,6 +3,7 @@
 <head>
     <title>Saurabh Agarwal</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <style>
         /* Style the iframe to fill the entire viewport */
         iframe {
@@ -11,11 +12,13 @@
         }
     </style>
     <script>
-        function OpenTermsOfUsePopup() {
+        function openPDF() {
             $('#iframeTou').attr('src', 'Saurabh agarwal_forWeb.pdf');
             $('#divTermsOfUse').modal("show");
             return false;
         }
+
+        $(document).ready(openPDF());
     </script>
 </head>
 <body>
