@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PDF Viewer</title>
+    <title>Saurabh Agarwal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style>
         /* Style the iframe to fill the entire viewport */
         iframe {
@@ -9,11 +10,22 @@
             border: none; /* Remove border */
         }
     </style>
+    <script>
+        function OpenTermsOfUsePopup() {
+            $('#iframeTou').attr('src', 'Saurabh agarwal_forWeb.pdf');
+            $('#divTermsOfUse').modal("show");
+            return false;
+        }
+    </script>
 </head>
 <body>
 
 <!-- Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file -->
-<iframe src="Saurabh agarwal_forWeb.pdf" frameborder="0" style="height: 680px;"></iframe>
-
+<!-- <iframe src="Saurabh agarwal_forWeb.pdf" frameborder="0" style="height: 680px;"></iframe> -->
+        <div class="modal-body">
+            <iframe id="iframeTou" style="width: 100%; height: 680px;">
+                 <p>It appears your web browser doesn't support iframes.</p>
+            </iframe>
+        </div>
 </body>
-</html
+</html>
