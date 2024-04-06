@@ -2,8 +2,6 @@
 <html>
 <head>
     <title>Saurabh Agarwal</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <style>
         /* Style the iframe to fill the entire viewport */
         iframe {
@@ -11,24 +9,11 @@
             border: none; /* Remove border */
         }
     </style>
-    <script>
-        function openPDF() {
-            $('#iframeTou').attr('src', 'Saurabh agarwal_forWeb.pdf');
-            $('.pdfBox').css("display", "block");
-            return false;
-        }
-
-        $(document).ready(openPDF());
-    </script>
 </head>
 <body>
 
 <!-- Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file -->
-<!-- <iframe src="Saurabh agarwal_forWeb.pdf" frameborder="0" style="height: 680px;"></iframe> -->
-        <div class="pdfBox" style="display:none;">
-            <iframe id="iframeTou" style="width: 100%; height: 680px;">
-                 <p>It appears your web browser doesn't support iframes.</p>
-            </iframe>
-        </div>
+<iframe src="Saurabh agarwal_forWeb.pdf" frameborder="0" style="height: 680px;"></iframe>
+       
 </body>
 </html>
