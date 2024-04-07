@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saurabh Agarwal</title>
+    <style>
+        /* Style the iframe to fill the entire viewport */
+        iframe {
+            width: 100%;
+            border: none; /* Remove border */
+        }
+    </style>
+</head>
+<body>
+<!-- Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file -->
+<iframe src="Saurabh agarwal_forWeb.pdf" frameborder="0" style="height: 680px;"></iframe>
+       
+</body>
+</html>
